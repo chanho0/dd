@@ -162,7 +162,7 @@ pm2 start server.js
 docker exec -it qinglong bash
 ```
 ```
-nohup python3 -u /ql/config/178.py >> /ql/log/178.log 2>&1 &
+nohup python3 -u /ql/config/auto.py >> /ql/log/auto.log 2>&1 &
 ```
 ```
 ps -ef
