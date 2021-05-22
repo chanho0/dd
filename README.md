@@ -167,3 +167,6 @@ nohup python3 -u /ql/config/auto.py >> /ql/log/auto.log 2>&1 &
 ```
 ps -ef
 ```
+```
+docker inspect "clash"
+```
