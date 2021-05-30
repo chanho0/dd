@@ -170,3 +170,6 @@ ps -ef
 ```
 docker inspect "clash"
 ```
+```
+python3 -m jbot
+```
