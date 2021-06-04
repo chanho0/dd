@@ -171,5 +171,5 @@ ps -ef
 docker inspect "clash"
 ```
 ```
-python3 -m jbot
+nohup python3 -m jbot >/ql/log/bot/bot.log 2>&1 &
 ```
